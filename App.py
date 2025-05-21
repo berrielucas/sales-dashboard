@@ -308,10 +308,4 @@ def update_graphs(selected_produtos, selected_lojas, selected_clientes, selected
 
     return fig_ano, fig_loja, fig_produto, table_cliente, fig_tipo_produto, fig_marca
 
-<<<<<<< HEAD
 server = app.server
-=======
-# --- EXECUÇÃO DO DASH APP ---
-if __name__ == '__main__':
-    app.run(port=4000)
->>>>>>> 46dbc8eaa60acabe795a04ad9891cf204d44a0aa

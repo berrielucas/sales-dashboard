@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+.tox/
+dist/
+build/
+*.egg-info/
+htmlcov/
+.nox/
+
+# IDEs e Editores
+.idea/             # PyCharm
+.vscode/           # VS Code
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Logs e Dados Temporários
+*.log
+*.tmp
+*.bak
+*.swp

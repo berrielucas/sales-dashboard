@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para a scrollbar em navegadores WebKit (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+    width: 8px; /* Largura da scrollbar vertical */
+    height: 8px; /* Altura da scrollbar horizontal */
+}
+
+*::-webkit-scrollbar-track {
+    background: #2a2a2a; /* Cor do fundo da trilha da scrollbar */
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #555555; /* Cor da "alça" da scrollbar */
+    border-radius: 10px;
+    border: 2px solid #2a2a2a; /* Borda para dar um efeito de profundidade */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #777777; /* Cor da "alça" ao passar o mouse */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555555 #2a2a2a;
+}
+
+.dark-dropdown .Select-control {
+    background-color: #333333;
+    border: 1px solid #444444;
+    color: #f0f0f0;
+}
+
+.dark-dropdown .Select-value-label {
+    color: #f0f0f0 !important; 
+}
+
+.dark-dropdown .Select-placeholder {
+    color: #cccccc !important;
+}
+
+.dark-dropdown .Select-menu-outer {
+    background-color: #333333;
+    border: 1px solid #444444;
+}
+
+.dark-dropdown .Select-option {
+    background-color: #333333;
+    color: #f0f0f0;
+}
+
+.dark-dropdown .Select-option.is-focused {
+    background-color: #444444; 
+}
+
+.dark-dropdown .Select-option.is-selected {
+    background-color: #555555;
+    color: #f0f0f0;
+}
+
+.dark-dropdown .Select-arrow {
+    border-color: #f0f0f0 transparent transparent;
+}
+
+.dark-dropdown.is-open .Select-arrow {
+    border-color: transparent transparent #f0f0f0;
+}

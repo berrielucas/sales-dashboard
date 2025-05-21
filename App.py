@@ -310,4 +310,4 @@ def update_graphs(selected_produtos, selected_lojas, selected_clientes, selected
 
 # --- EXECUÇÃO DO DASH APP ---
 if __name__ == '__main__':
-    app.run(port=3002)
+    app.run(port=4000)
